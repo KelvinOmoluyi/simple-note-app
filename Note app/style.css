@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color-01: #00ccff;
+    --main-color-02: #eefcff;
+    --main-color-03: #eeeeee;
+    --main-color-04: #ffffff;
+
+    --word-color-01: #ffffff;
+
+    --box-shadow-01: 0 0 0.5rem hsl(0, 0%, 43%);
+    --box-shadow-02: 0 0 0.2rem hsl(0, 0%, 65%);
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 300;
+    color: var(--word-color-01);
+}
+
+h5 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--word-color-01);
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-color-03);
+}
+
+button {
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+}
+
+main {
+    width: 28rem;
+    height: 35rem;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: var(--box-shadow-01);
+    overflow: hidden;
+}
+
+main .heading {
+    height: 100px;
+    width: 100%;
+    background-color: var(--main-color-01);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ----------- main contents ------------- */
+
+.main-contents {
+    padding: 1rem;
+}
+
+main .input-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+main #noteInput {
+    width: calc(100% - 50px);
+    height: 40px;
+    padding: 0.5rem;
+    border: none;
+    background-color: var(--main-color-02);
+}
+
+main #check {
+    height: 21px;
+    width: 21px;
+}
+
+main button#addnote {
+    border: none;
+    padding: 10px 10px;
+    margin: 1rem 0rem 1.5rem;
+    background-color: var(--main-color-01);
+    color: var(--word-color-01);
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 0.4rem;
+    box-shadow: var(--box-shadow-02);
+}
+
+main #notesContainer {
+    width: 100%;
+    height: 17rem;
+    overflow-y: scroll;
+    text-wrap: wrap;
+}
+
+.note {
+    background: var(--main-color-02);
+    padding: 1.2rem 0.75rem;
+    margin-top: 1rem;
+    position: relative;
+    border-radius: 0.3rem;
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+}
+
+.note button {
+    border-radius: 4px;
+}
+
+.delete-btn {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    background: var(--main-color-01);
+    color: white;
+    border: none;
+    padding: 0.25rem 0.5rem;
+    cursor: pointer;
+}
