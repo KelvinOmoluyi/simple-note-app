@@ -1,8 +1,0 @@
-    <meta charset="UTF-8">
-    <meta name="author" content="Sam">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="Description" content="A shot description of the app">
-    <meta name="keywords" content="Training, IT, Certification">
-    <link rel="stylesheet" href="">
-
-meta data
