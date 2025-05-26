@@ -1,0 +1,5 @@
+Built using HTML, CSS, JavaScript ensuring a modern and user-friendly interface.
+
+flex direction sets the direction of the main axis
+justify contents sets the alignments of the flex items along main axis
+Align-items is use to specify the layout of items along the cross axis

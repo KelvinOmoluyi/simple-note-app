@@ -1,0 +1,5 @@
+write a program that reverses a given string using a for loop
+write a program to count the the number of vowels in a string
+use a for loop to capitalise the first letter of every word in a sentence
+using while or for loop, write a program to find the largest number in an array
+use a for loop to generate a multiplication table for a number up to 12

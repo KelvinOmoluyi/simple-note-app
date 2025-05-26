@@ -1,0 +1,46 @@
+color - Color Picker
+
+What it does: Lets users select a color from a visual picker.
+Use case: Perfect for design tools or apps where users need to choose colors.
+Pro Tip: Use JavaScript to capture the selected color value and apply it dynamically.
+
+hidden - Hidden Field
+
+What it does: Stores data that isn’t visible to the user but is sent with the form submission.
+Use case: Great for storing IDs, tokens, or other backend data.
+Pro Tip: Never use hidden fields for sensitive data (e.g., passwords) as they can be manipulated.
+
+range - Slider
+
+What it does: Allows users to select a value by sliding a thumb along a track.
+Use case: Ideal for settings like volume control, brightness, or filters.
+Pro Tip: Use min, max, and step attributes to control the slider’s behavior.
+
+date - Calendar Date Picker
+
+What it does: Provides a calendar interface for selecting a date.
+Use case: Perfect for forms requiring birthdays, appointments, or deadlines.
+Pro Tip: Use min and max to restrict selectable dates (e.g., min="2023-01-01").
+
+time - Time Picker
+
+What it does: Lets users select a time (hours and minutes).
+Use case: Great for scheduling apps, alarms, or timers.
+Pro Tip: Use step to set intervals (e.g., step="1800" for 30-minute increments).
+
+datetime-local - Local Date & Time Picker
+What it does: Combines date and time into a single input for selecting a local date and time.
+Use case: Useful for event scheduling or reminders.
+Pro Tip: Ensure your backend handles time zones correctly when processing this input.
+
+search - Search Box
+
+What it does: A text input optimized for search queries.
+Use case: Perfect for search bars on websites or apps.
+Pro Tip: Use the placeholder attribute to guide users (e.g., placeholder="Search...").
+
+tel - Phone Number Input
+
+What it does: Designed for entering phone numbers.
+Use case: Ideal for contact forms or sign-up pages.
+Pro Tip: Use the pattern attribute to enforce a specific phone number format

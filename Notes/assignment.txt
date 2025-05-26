@@ -1,0 +1,16 @@
+write a func that returns the longest word in a sentence
+
+write that prints number from 1 to 50. for multiples of 3 it'll print fee for 5 buzz for both fees buzz
+
+write the function that repeats a string n times
+
+write a function that replaces vowels with *
+
+write a function that accepts an array and check if all the elements of the arrays are numbers, or it will return false
+
+write a function that accepts string a show the number of times each letter appears in the string
+
+write a function that accepts a number and returns true if the number is a prime number otherwise it returns false
+
+
+console.log(circleCalculation.getDiameter())

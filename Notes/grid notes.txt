@@ -1,0 +1,24 @@
+the grid layout allow developer to create layout sysutems with rowa and column, a grid always consits of  a parent container call grid container and alos grid items
+
+the parent container is a to grid when the display property is set to grid.
+other grid css proerties consist of
+- grid template column: it specifies the size of the columns and hpw many columns can be in the container
+- grid template rows: it specifies the size of the rows on the grid layout
+- justify contents: it horizontally align the whole grid inside the container
+- align-items: it align  contents in the grid items along the column axis
+- align-contents: which vertically aligns the whole grid inside the container
+- gap, column gap, row gap e.t.c
+
+Positioning- it talks about the placements on elements ont he webpage
+there are four categories of elemts that html can take
+- static
+-relative
+-absolute
+-fixed
+-sticky
+
+SOURCE ORDER - is the way elements are naturally arranged.
+
+css properties to set positioning
+1. position
+2. top, left, right, bottom

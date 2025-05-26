@@ -1,0 +1,29 @@
+there are properties for objects called attribute
+
+since string is a method, it also has properties and function
+
+[Note: there are 2 types of methods, built in methods and user-defined methods]
+
+- string properties are accessed by: [string.property] e.g string.length
+- string methods are written as: [string.methodName(args)]
+
+----------- strings properties --------------------
+. string.length: it returns the length of the string
+
+------------ string method -------------------------
+. string.toUpperCase()
+. string.toLowerCase()
+. string.replace('world', 'Ahmed')
+
+given a 3 letter word such as cat
+write a javascript program to put it in reverse order
+
+given your name, write a js program to put sapce in between each letter in the name
+
+given your firstname and last name, write a js script program to generate a nickname made of the first 3letter of your firstname
+and the first 2 letter of your lastname
+
+given your fullname, write a program that is going to flip the name
+
+given a fullname, generate an email like [firstname.lastname@gmail.com]
+

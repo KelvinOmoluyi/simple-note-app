@@ -1,0 +1,35 @@
+Javascript can influence css styles
+ it can be used inline
+
+Steps for problem solving
+1. Break it into modules
+2. develop the algorithm: either using psuedocode or algorithm
+
+Variable are containers that temporarily store information/variable
+ is a space in the memory where a particular data is stored
+
+there are 3 way to declare variables in javascript
+1. var
+2. let
+3. const
+
+NB: javascript is a language that has evolved over the years
+
+there ae certain rules to follow when assigning names of variables
+1. variable names can only start with a letter or underscore and dollar symbol(except numbers)
+2. variable names can contain, underscore, numbers or letters
+3. variable name are case sensitive
+4. js keywords or reserved words can not be used as variabe names
+5. variables must be declared before using them
+[good practice] Variables should reflect the name of the variables
+
+Variable naming guide [camel case e.g nameOfStudent]
+		    [snake case e.g name_of_students]
+		    [pascal case e.g Name_of_student]
+
+Data types are the categorixation of data in a program
+- string
+- numeric [bit, byte, short, int, float, long, double]
+- boolean [true, false]
+- undefined
+- null

@@ -1,0 +1,14 @@
+dom elements
+
+
+appendchild
+textcontent
+getattribute
+setattribute
+
+createElement
+
+dom is programimg interface
+
+src
+what is the meaning of all these thing that this man is mentioning since morning
